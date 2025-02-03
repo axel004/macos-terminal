@@ -1,0 +1,14 @@
+name: macOS Terminal
+
+on: 
+  workflow_dispatch:  # Permette di avviare il terminale manualmente
+
+jobs:
+  macos-shell:
+    runs-on: macos-latest
+    steps:
+      - name: Avvia macOS
+        run: |
+          echo "Benvenuto nel terminale macOS!"
+          echo "Usa il comando 'sleep infinity' per tenere aperta la sessione."
+          sleep infinity
