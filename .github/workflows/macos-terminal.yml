@@ -10,5 +10,5 @@ jobs:
       - name: Avvia macOS
         run: |
           echo "Benvenuto nel terminale macOS!"
-          echo "Usa il comando 'sleep infinity' per tenere aperta la sessione."
+          ls
           sleep 300
