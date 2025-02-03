@@ -11,4 +11,4 @@ jobs:
         run: |
           echo "Benvenuto nel terminale macOS!"
           echo "Usa il comando 'sleep infinity' per tenere aperta la sessione."
-          sleep infinity
+          sleep 300
